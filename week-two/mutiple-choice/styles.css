@@ -1,0 +1,28 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+}
+.question { 
+    font-weight: bold; 
+    margin-top: 20px; 
+}
+.options { 
+    margin: 10px 0; 
+}
+button { 
+    margin-top: 10px; 
+}
+.correct { 
+    background-color: lightblue; 
+}
+.incorrect { 
+    background-color: lightcoral; 
+}
+.option-button { 
+    display: block; 
+    margin: 5px 0; 
+}
+.option-button.selected {
+    background-color: #007BFF; 
+    color: white; 
+}
