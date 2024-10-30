@@ -96,5 +96,6 @@ function selectAnswer(selectedAnswer, correctAnswer) {
 }
 const score = document.getElementById('score');
 document.getElementById('submit-button').addEventListener('click', () => {
+    score.classList.add('score');
     score.innerText =`Your score is ${totalScore} out of ${qlength}`;
 });
